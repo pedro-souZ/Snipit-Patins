@@ -8,12 +8,13 @@
     width: 100%;
     overflow: hidden;
     padding-block: 1rem;
-    display: flex;
   }
 
   & .rolling {
+    padding-block: 0.5rem;
     display: flex;
-    gap: 1.5rem;
+    background-image: url(/assets/banner.svg);
+    background-repeat: repeat-x;
 
     animation: rolling 2s linear infinite;
   }
@@ -37,7 +38,6 @@
     background-position: 100% 50%;
   }
 }
-
 @keyframes rolling {
   to {
     transform: translateX(-132px);
