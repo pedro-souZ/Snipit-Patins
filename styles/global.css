@@ -25,7 +25,7 @@
 
   --tex-sm: 0.875rem;
   --text-base: 1rem;
-  ---text-lg: 2.5rem;
+  --text-lg: 2.5rem;
   --text-xl: 4rem;
 }
 
@@ -40,12 +40,12 @@ h2 {
 }
 
 h1 {
-  font-size: var(---text-xl);
+  font-size: var(--text-xl);
   line-height: 1.25;
 }
 
 h2 {
-  font-size: var(---text-lg);
+  font-size: var(--text-lg);
   line-height: 1.2;
 }
 
